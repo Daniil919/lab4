@@ -1,0 +1,46 @@
+.InputPlus {
+     width: 100%;
+     display: grid;
+     grid-template-columns: 1fr 45px;
+     margin-bottom: 15px;
+
+     &Value {
+         border: 1px solid #B1B1B1;
+         border-top-left-radius: 5px;
+         border-bottom-left-radius: 5px;
+         padding: 9px 10px;
+         font: 1rem/1.4 'Roboto', sans-serif;
+         background: #DBE2EF;
+         &::placeholder {
+            color: #7B7B7B;
+         }
+     }
+
+     &Button {
+        border-radius: none;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border: none;
+        cursor: pointer;
+        background: #3F72AF url('./images/plus.svg') no-repeat center center;
+        transition: opacity 0.3s;
+
+        &:hover {
+            opacity: 0.7;
+        }
+     }
+
+     .InputPlusButtonComleted {
+        border-radius: 5px;
+        //border: 5px 5px 5px 5px;
+        border: none;
+        margin-left: 10px;
+        cursor: pointer;
+        background: #3F72AF url('./images/completed.svg') no-repeat center center;
+        transition: opacity 0.3s;
+
+        &:hover {
+            opacity: 0.7;
+        }
+     }
+}

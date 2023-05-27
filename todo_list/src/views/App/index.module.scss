@@ -1,0 +1,52 @@
+.article {
+    background: white;
+    min-width: 600px;
+    border-radius: 20px;
+    padding: 20px 55px;
+    
+    &Value {
+        border: 1px solid #B1B1B1;
+        border-radius: 5px 5px 5px 5px;
+        padding: 3px 7px;
+        margin-bottom: 10px;
+        font: 1rem/1.4 'Roboto', sans-serif;
+        background: #DBE2EF;
+        &::placeholder {
+           color: #7B7B7B;
+        }
+    }
+
+    &Title {
+        font-size: 40px;
+        margin-bottom: 0.3em;
+        text-align: center;
+    }
+
+    &Text {
+        text-align: center;
+    }
+
+    .articleSectionGraph {
+       display: inline-flex;
+       height: 1px;
+       font-size: 15px;
+       max-width:200px;
+       max-height:200px;
+    }
+
+    .articleSectionPie {
+        text-align: center;
+        margin: 30px;
+        margin-left: 120px;
+        width: 150px;
+        padding-bottom: 130px;
+        // margin-bottom: 50px;
+     }
+     
+     .articleSectionDoughnut {
+        margin: 30px;
+        width: 150px;
+        // margin-bottom: 50px;
+     }
+
+}
